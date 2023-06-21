@@ -76,7 +76,7 @@ const firebaseConfig = {
   
     firebase.auth().signInWithEmailAndPassword(email, password)
     .then(function(userCredential) {
-      // User creation successful
+      document.getElementById("account-btn").innerHTML = "<a class='nav-link'><i class='fas fa-user'></i></a>";
       alert("Login Successful", userCredential.email);
       // You can perform additional actions here, such as redirecting to another page
     })

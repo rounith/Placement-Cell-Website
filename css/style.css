@@ -11,9 +11,6 @@ a{
 #navbarNav{
   margin-left: 100px;
 }
-.navbar-nav {
-  padding-right: 2rem;
-}
 .navbar-nav .nav-link {
   border-radius: 0.25rem;
   padding-left: 10px;
@@ -26,9 +23,13 @@ a{
 .navbar-nav .nav-link.active {
   font-weight: bold;
 }
-.navbar-nav .nav-link.btn-primary:hover {
+.navbar-nav .nav-link.btn-primary:hover{
 background-color: #28a745;
 }
+#account-btn{
+  padding-right: 2rem;
+}
+
 
 /*CONTACT US*/
 
