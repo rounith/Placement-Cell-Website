@@ -9,7 +9,7 @@ a{
   display:grid;
 }
 #navbarNav{
-  margin-left: 100px;
+  margin-left: 20px;
 }
 .navbar-nav .nav-link {
   border-radius: 0.25rem;
